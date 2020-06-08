@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/myTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Statistic"
+        android:textSize="40dp"
+        android:textColor="@android:color/holo_purple"
+        android:textStyle="bold"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="40dp"/>
+
+    <View
+        android:layout_width="147dp"
+        android:layout_height="4dp"
+        android:layout_marginTop="-4dp"
+        android:layout_marginLeft="94dp"
+        android:layout_below="@+id/myTextView"
+        android:background="@android:color/holo_purple"/>
+
+    <TextView
+        android:id="@+id/myTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score"
+        android:textSize="40dp"
+        android:textColor="@color/FireBrick"
+        android:textStyle="bold"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="120dp"/>
+
+    <View
+        android:layout_width="103dp"
+        android:layout_height="4dp"
+        android:layout_marginTop="-4dp"
+        android:layout_marginLeft="118dp"
+        android:layout_below="@+id/myTextView1"
+        android:background="@color/FireBrick"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/myTextView1"
+        android:background="@color/Black"/>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView android:layout_column="1"
+                android:text="Attempted"
+                android:textStyle="bold"
+                android:textColor="@color/DarkOrange"
+                android:textSize="35dp"
+                android:layout_marginTop="235dp"
+                android:layout_marginLeft="20dp" />
+            <TextView android:layout_column="2"
+                android:textSize="45dp"
+                android:textColor="@color/FireBrick"
+                android:text=":"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="235dp"/>
+            <TextView android:layout_column="3"
+                android:text="1"
+                android:textStyle="bold"
+                android:textColor="@color/Gray"
+                android:textSize="35dp"
+                android:layout_marginTop="235dp"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/attempted1"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:layout_column="1"
+                android:text="Correct"
+                android:textStyle="bold"
+                android:textColor="@color/DarkOrange"
+                android:textSize="35dp"
+                android:layout_marginLeft="45dp" />
+            <TextView android:layout_column="2"
+                android:textSize="45dp"
+                android:textColor="@color/FireBrick"
+                android:text=":"
+                android:layout_marginLeft="26dp" />
+            <TextView android:layout_column="3"
+                android:text="0"
+                android:textStyle="bold"
+                android:textColor="@color/Gray"
+                android:textSize="35dp"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/correct"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:layout_column="1"
+                android:text="Incorrect"
+                android:textStyle="bold"
+                android:textColor="@color/DarkOrange"
+                android:textSize="35dp"
+                android:layout_marginLeft="34dp" />
+            <TextView android:layout_column="2"
+                android:textSize="45dp"
+                android:textColor="@color/FireBrick"
+                android:text=":"
+                android:layout_marginLeft="26dp" />
+            <TextView android:layout_column="3"
+                android:text="1"
+                android:textStyle="bold"
+                android:textColor="@color/Gray"
+                android:textSize="35dp"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/incorrect"/>
+        </TableRow>
+    </TableLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_marginTop="270dp"
+        android:layout_below="@+id/myTextView1"
+        android:background="@color/Black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brush Your Knowledge!"
+        android:layout_marginLeft="6dp"
+        android:textStyle="bold"
+        android:textColor="@color/SaddleBrown"
+        android:textSize="33dp"
+        android:id="@+id/commentary"
+        android:layout_marginTop="478dp" />
+
+</RelativeLayout>

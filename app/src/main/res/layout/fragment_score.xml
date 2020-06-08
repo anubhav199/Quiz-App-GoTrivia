@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_red_light">
+    
+    <TextView
+        android:id="@+id/myTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Score"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_marginLeft="82dp"
+        android:layout_marginTop="30dp"
+        />
+    <View
+        android:layout_width="191dp"
+        android:layout_height="4dp"
+        android:layout_marginTop="-3dp"
+        android:layout_marginLeft="84dp"
+        android:layout_below="@+id/myTextView"
+        android:background="@color/Black"/>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:id="@+id/myTextView1">
+        <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text=" •  "
+            android:textSize="30dp"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_column="2"
+            android:layout_width="wrap_content"
+            android:text="Computer   :"
+            android:textSize="30dp"
+            android:textStyle="bold"></TextView>
+            <TextView
+                android:layout_column="3"
+                android:layout_width="170dp"
+                android:gravity="center"
+                android:id="@+id/comphigh"
+                android:text="0"
+                android:textSize="30dp"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text=" •  "
+                android:textSize="30dp"
+                android:textStyle="bold"></TextView>
+            <TextView
+                android:layout_column="2"
+                android:layout_width="wrap_content"
+                android:text="Sports         :"
+                android:textSize="30dp"
+                android:textStyle="bold"></TextView>
+            <TextView
+                android:layout_column="3"
+                android:layout_width="170dp"
+                android:gravity="center"
+                android:text="0"
+                android:id="@+id/comphigh1"
+                android:textSize="30dp"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text=" • "
+                android:textSize="30dp"
+                android:textStyle="bold"></TextView>
+            <TextView
+                android:layout_column="2"
+                android:layout_width="wrap_content"
+                android:text="Inventions  :"
+                android:textSize="30dp"
+                android:textStyle="bold"></TextView>
+            <TextView
+                android:layout_column="3"
+                android:layout_width="170dp"
+                android:gravity="center"
+                android:id="@+id/comphigh2"
+                android:text="0"
+                android:textSize="30dp"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text=" •  "
+                android:textSize="30dp"
+                android:textStyle="bold"></TextView>
+            <TextView
+                android:layout_column="2"
+                android:layout_width="wrap_content"
+                android:text="Politics       :"
+                android:textSize="30dp"
+                android:textStyle="bold"></TextView>
+            <TextView
+                android:layout_column="3"
+                android:layout_width="170dp"
+                android:gravity="center"
+                android:id="@+id/comphigh3"
+                android:text="0"
+                android:textSize="30dp"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text=" •    "
+                android:textSize="30dp"
+                android:textStyle="bold"></TextView>
+            <TextView
+                android:layout_column="2"
+                android:layout_width="wrap_content"
+                android:text="Science      :"
+                android:textSize="30dp"
+                android:textStyle="bold"></TextView>
+            <TextView
+                android:layout_column="3"
+                android:layout_width="170dp"
+                android:gravity="center"
+                android:id="@+id/comphigh4"
+                android:text="0"
+                android:textSize="30dp"
+                android:textStyle="bold"></TextView>
+        </TableRow>
+    </TableLayout>
+
+    <View
+        android:layout_width="300dp"
+        android:layout_height="4dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="28dp"
+        android:layout_below="@+id/myTextView1"
+        android:background="@color/Black"/>
+
+</RelativeLayout>

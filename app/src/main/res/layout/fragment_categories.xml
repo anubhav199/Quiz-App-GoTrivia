@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark">
+
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="190dp"
+        android:background="@color/Silver"
+        android:layout_height="200dp"
+        android:src="@mipmap/computer"/>
+
+    <Button
+        android:id="@+id/goquest"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/myImageView"
+        android:layout_alignTop="@id/myImageView"
+        android:layout_alignBottom="@id/myImageView"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="1dp"
+        android:gravity="bottom"
+        android:paddingLeft="25dp"
+        android:background="@drawable/hover_change_1"
+        android:paddingBottom="17dp"
+        android:text="Computer"
+        android:textColor="#000000"
+        android:textSize="50px" />
+
+    <ImageView
+        android:id="@+id/myImageView1"
+        android:layout_width="190dp"
+        android:background="@color/Silver"
+        android:layout_height="200dp"
+        android:layout_marginLeft="193.8dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/sports"/>
+
+    <Button
+        android:id="@+id/goquest1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/myImageView1"
+        android:layout_alignTop="@id/myImageView1"
+        android:layout_alignRight="@id/myImageView1"
+        android:layout_alignBottom="@id/myImageView1"
+        android:background="@drawable/hover_change_1"
+        android:layout_margin="1dp"
+        android:gravity="bottom"
+        android:paddingLeft="46dp"
+        android:paddingBottom="17dp"
+        android:text="Sports"
+        android:textSize="50px"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/myImageView2"
+        android:layout_width="match_parent"
+        android:background="@color/Silver"
+        android:layout_height="180dp"
+        android:layout_marginTop="204dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/invention"/>
+
+    <Button
+        android:id="@+id/goquest2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/myImageView2"
+        android:layout_alignTop="@id/myImageView2"
+        android:layout_alignRight="@id/myImageView2"
+        android:layout_alignBottom="@id/myImageView2"
+        android:layout_margin="1dp"
+        android:background="@drawable/hover_change_1"
+        android:gravity="bottom"
+        android:paddingLeft="119dp"
+        android:paddingBottom="17dp"
+        android:text="Inventions"
+        android:textSize="50px"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/myImageView3"
+        android:layout_width="190dp"
+        android:background="@color/Silver"
+        android:layout_height="190dp"
+        android:layout_marginTop="387dp"
+        android:layout_marginLeft="193.8dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/science"/>
+
+    <Button
+        android:id="@+id/goquest3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/myImageView3"
+        android:layout_alignTop="@id/myImageView3"
+        android:layout_alignRight="@id/myImageView3"
+        android:layout_alignBottom="@id/myImageView3"
+        android:layout_margin="1dp"
+        android:gravity="bottom"
+        android:background="@drawable/hover_change_1"
+        android:paddingLeft="40dp"
+        android:paddingBottom="17dp"
+        android:text="Science"
+        android:textSize="50px"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/myImageView4"
+        android:layout_width="190dp"
+        android:background="@color/Silver"
+        android:layout_height="190dp"
+        android:layout_marginTop="387dp"
+        android:src="@mipmap/politics"/>
+
+    <Button
+        android:id="@+id/goquest4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/myImageView4"
+        android:layout_alignTop="@id/myImageView4"
+        android:layout_alignRight="@id/myImageView4"
+        android:layout_alignBottom="@id/myImageView4"
+        android:layout_margin="1dp"
+        android:gravity="bottom"
+        android:background="@drawable/hover_change_1"
+        android:paddingLeft="40dp"
+        android:paddingBottom="17dp"
+        android:text="Politics"
+        android:textSize="50px"
+        android:textColor="#000000" />
+
+</RelativeLayout>

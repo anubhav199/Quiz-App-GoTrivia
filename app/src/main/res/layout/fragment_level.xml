@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light">
+    
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="73dp"
+        android:layout_marginTop="50dp"
+        android:src="@mipmap/ladder"/>
+
+    <TextView
+        android:id="@+id/myTextView"
+        android:layout_width="130dp"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="66dp"
+        android:layout_height="wrap_content"
+        android:text="Level"
+        android:textStyle="bold"
+        android:textSize="50dp"/>
+
+    <View
+        android:layout_width="116dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="-8dp"
+        android:layout_marginLeft="148dp"
+        android:layout_below="@+id/myTextView"
+        android:background="@color/Black"/>
+
+    <Button
+        android:id="@+id/customButton3"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Easy"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:textColor="@color/Gray"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/hover_change"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/customButton1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Intermediate"
+        android:gravity="center"
+        android:textSize="34dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:textColor="@color/Gray"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/hover_change"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/customButton2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Hard"
+        android:gravity="center"
+        android:textColor="@color/Gray"
+        android:textSize="40dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/hover_change"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/gocatr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:textSize="30dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="96dp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

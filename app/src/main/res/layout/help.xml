@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/SaddleBrown">
+
+    <TextView
+        android:layout_width="200dp"
+        android:textSize="30dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:background="@color/SaddleBrown"
+        android:textColor="@color/DarkOrange"
+        android:layout_height="wrap_content"
+        android:text="If you need help at any moment then fee free to contact me,I will be happy to help you!"/>
+
+    <Button
+        android:id="@+id/construction1"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Need Help"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:textColor="@color/Black"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/hover_change_3"/>
+
+</RelativeLayout>

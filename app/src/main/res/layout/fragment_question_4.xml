@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1-"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="@color/Black"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="70dp"
+        android:id="@+id/myTextView"/>
+
+    <View
+        android:layout_width="26dp"
+        android:layout_height="4dp"
+        android:layout_marginTop="-5dp"
+        android:layout_marginLeft="6dp"
+        android:layout_below="@+id/myTextView"
+        android:background="@color/Black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_view_question"
+        android:text="Who is the father of computer ?"
+        android:textSize="30dp"
+        android:textColor="@android:color/holo_purple"
+        android:textStyle="bold"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="76dp"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:id="@+id/radio_groups">
+
+        <RadioButton
+            android:id="@+id/radio_button_1"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:text="Vint Cerf"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:gravity="center"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/button_color"/>
+
+        <RadioButton
+            android:id="@+id/radio_button_2"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:text="Martin Cooper"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:gravity="center"
+            android:background="@drawable/button_color"/>
+
+        <RadioButton
+            android:id="@+id/radio_button_3"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:text="Denis Riche"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:gravity="center"
+            android:background="@drawable/button_color"/>
+
+        <RadioButton
+            android:id="@+id/radio_button_4"
+            android:gravity="center"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:text="Charles Babbage"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:background="@drawable/button_color"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/countdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:30"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="230dp"/>
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score:"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="6dp"/>
+
+    <Button
+        android:id="@+id/result"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:textColor="@color/White"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="495dp"
+        android:background="@drawable/hover_change_2"/>
+
+</RelativeLayout>
